@@ -5,8 +5,8 @@ import android.util.Log
 import android.widget.Toast
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.janitriassignment.data.db.ColorDao
-import com.example.janitriassignment.data.db.ColorEntity
+import com.shreyxnsh.janitriassignment.data.db.ColorDao
+import com.shreyxnsh.janitriassignment.data.db.ColorEntity
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
