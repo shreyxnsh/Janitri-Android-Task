@@ -4,7 +4,7 @@ A Color app that generates random color codes and displays them in CardViews whi
 
 ## Demonstration
 
-<img src="https://github.com/shreyxnsh/Tiimi/blob/master/tiimi_gif.gif" width="300">
+<img src="https://github.com/shreyxnsh/Janitri-Android-Task/blob/master/janitri.gif" width="300">
 
 ## Screenshots
 
