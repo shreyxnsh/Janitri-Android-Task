@@ -25,7 +25,7 @@
                 android:id="@+id/color_code"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inria_sans"
+
                 android:text="#B6B9FF"
                 android:textColor="@color/white"
                 android:textSize="20sp"
