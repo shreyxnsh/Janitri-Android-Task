@@ -6,11 +6,11 @@ import android.graphics.Color
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
-import com.example.janitriassignment.data.db.ColorDao
-import com.example.janitriassignment.data.db.ColorDatabase
-import com.example.janitriassignment.data.db.ColorEntity
-import com.example.janitriassignment.data.repository.ColorRepository
-import com.example.janitriassignment.ui.MainActivity
+import com.shreyxnsh.janitriassignment.data.db.ColorDao
+import com.shreyxnsh.janitriassignment.data.db.ColorDatabase
+import com.shreyxnsh.janitriassignment.data.db.ColorEntity
+import com.shreyxnsh.janitriassignment.data.repository.ColorRepository
+import com.shreyxnsh.janitriassignment.MainActivity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
