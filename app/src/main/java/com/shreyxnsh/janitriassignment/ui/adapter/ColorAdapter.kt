@@ -15,8 +15,8 @@ import android.widget.Toast
 import androidx.cardview.widget.CardView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
-import com.example.janitriassignment.R
-import com.example.janitriassignment.data.db.ColorEntity
+import com.shreyxnsh.janitriassignment.R
+import com.shreyxnsh.janitriassignment.data.db.ColorEntity
 import java.text.SimpleDateFormat
 import java.util.*
 
