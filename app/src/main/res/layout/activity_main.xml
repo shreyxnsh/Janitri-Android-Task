@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity"
+    >
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/cutomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:background="#5659A4"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Color App"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:id="@+id/sync_btn"
+                android:padding="6dp"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/group_2111"
+                android:text="12"
+                android:layout_marginStart="4dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:drawablePadding="8dp"
+                android:background="@drawable/bg_sync"
+                android:layout_marginEnd="8dp"
+                android:layout_toStartOf="@+id/delete_button"
+                android:layout_centerVertical="true"
+                />
+
+
+            <ImageView
+                android:id="@+id/delete_button"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/delete"
+                android:layout_marginEnd="8dp"
+                android:layout_alignParentEnd="true"
+                />
+        </RelativeLayout>
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        tools:listitem="@layout/item_color"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toBottomOf="@id/cutomAppBar"
+        >
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/new_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="8dp"
+        android:text="Add Color"
+        android:textColor="#5659A4"
+        android:src="@drawable/add"
+        android:backgroundTint="#B6B9FF"
+        tools:ignore="ContentDescription" />
+</androidx.constraintlayout.widget.ConstraintLayout>
