@@ -1,6 +1,6 @@
 # Janitri-Android-Task
 
-Janitri 
+A Color app that generates random color codes and displays them in CardViews which is saved locally in RoomDB and can be synced to a database like Firebase using the sync button.
 
 ## Demonstration
 
